@@ -1,11 +1,11 @@
 import pandas as pd
 
-roster = ["Davis", "Bacot", "Trimble"]
+
 player = {
-    "Last Name": roster,
-    "First Name": ["RJ", "Armando", "Seth"],
-    "Height": [72, 83, 75],
-    "Weight": [180, 240, 195]
+    "Last Name": ["Davis", "Bacot", "Trimble", "Washington", "Lebo", "Landry", "Okonkwo", "Wojcik", "Ingram", "Farris"],
+    "First Name": ["RJ", "Armando", "Seth", "Jalen", "Creighton", "Rob", "James", "Paxson", "Harrison", "Duwe"],
+    "Height": [72, 83, 75, 82, 73, 76, 80, 77, 79, 79],
+    "Weight": [180, 240, 195, 230, 180, 190, 240, 195, 235, 210]
 }
 data = pd.DataFrame(player)
 
